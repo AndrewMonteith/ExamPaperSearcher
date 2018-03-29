@@ -1,0 +1,237 @@
+Page 2 101081/01
+Section A Dr. Tom Friedetzky and Dr. Matthew Johnson
+
+Question 1
+
+(3) Deﬁne the linked iist data structure. [4 Marks]
+(b) Given a linked Iist L, what do the following refer to?
+i. L‘head‘data
+
+ii. L.head.next,ne><t
+
+[4 Marks]
+
+(c) Brieﬂy explain one advantage of using a Iinked list rather than an array,
+[3 Marks]
+
+(d) Write pseudo—code for inserting a piece of data d into a linked list L fol—
+lowing a node N. [7 Marks]
+
+(e) The input to the following algorithm is a linked list containing at least one
+node and each piece of data is an integer, Describe the output, and explain
+the roles of c, d and 6.
+
+Input: linked list L
+
+Output: ??7
+c 2 0
+d z L.head
+e ‘: dhext
+
+while 6 # NULL do
+if e.data > d.data then
+c : c + 1
+end if
+d = e
+e = dhext
+end white
+
+return C
+
+[7 Marks]
+
+continued ::::: Page 3 101081/01
+
+Question 2
+
+(a)
+
+(b)
+
+(d)
+
+Give formal deﬁnitions of the asymptotic classes (9 and to. Explain the
+
+meaning behind those deﬁnitions [8 Marks]
+Rank the following functions according to asympotic growth:
+410g n ,nlog Iog n (ﬁ>log n niog3 3
+
+[6 Marks]
+
+Exp1ain the statement of the lower bound for comparison-based sorting
+aigorithms. Explain how BucketSort can appear to beat this bound in
+certain situations [6 Marks]
+
+What is the difference between the binary search tree property and the
+min»heap property? Can the min—heap property be used to print out the
+keys of an n—node tree in sorted order in O(n) time? Expiain how or why
+not. [5 Marks]
+
+End of Section A continued ::::: Page 4
+
+101081/01
+
+Section B Dr. Tom Friedetzky and Dr. Matthew Johnson
+
+Question 3
+
+(a) For each of the foilowing probtems‘ give an algorithm that finds the desired
+
+numbers within the given amount of time Your answers do not need to be
+
+very detaiied: something such as ”sort the numbers using algorithm A and
+
+return the 5th smallest as x and the 17th largest as y" is acceptable, A
+
+briefjustiﬁcation of the correctness of your solution is sufficient; no formal
+
+proofs are required.
+
+Let S be an unsorted array of n distinct integers. Give an algorithm
+that ﬁnds the pair my 6 S that maximises 1x — 311- Your algorithm
+
+must run in O(n) worstvcase time. [2 Marks]
+
+3 Let S be a sorted array of n distinct integers. Give an algorithm that
+
+finds the pair my 6 S that maximises Ix - yl. Your algorithm must
+run in 0(1) worst-case time. [2 Marks]
+
+Let S be an unsorted array of n distinct integers. Give an algorithm
+that ﬁnds a pair ray 6 S that minimises \9: — yl, for ac yé y. Your
+algorithm must run in O(nlog n) worst—case time. [2 Marks]
+
+Let S be a sorted array of n distinct integers, Give an algorithm
+that ﬁnds a pair guy 6 S that minimises {x — y[, for x 5% y Your
+
+algorithm must run in O(n) worst—case time, [2 Marks]
+
+(b) Suppose we have integer values between 1 and 1000 in a binary search tree
+
+and search for 363. Which of the following cannot be the sequence of
+
+keys examined? Explain your answer. {4 Marks]
+
+i.
+iiv
+iii.
+iv.
+
+V.
+
+2 252 401 398 330 363
+
+399 387 219 266 382 381 278 363
+3 923 220 911 244 898 258 362 363
+4 924 278 347 621 299 392 358 363
+S 925 202 910 245 363
+
+this question is continued on the next page ::::: Page 5 101081/01
+
+(c) By running a breadth—ﬁrst search on a directed graph G, a breadth-ﬁrst
+tree T is obtained that contains the edges traversed during the search.
+Describe how the edges of G can be classified with respect to T as tree,
+
+forward, back or cross edges. [4 Marks]
+
+(d) Suppose a breadth-ﬁrst search is run on the directed graph given by the
+adjacency ﬁsts below with vertex 1 as the source. Classify each edge of
+
+the graph as a tree, forward, back or cross edge [6 Marks]
+3:
+37
+47
+1;
+
+#728
+
+CO O1 01 01 CH
+
+1,
+375,8
+
+6
+2,3,4,6,7
+
+mqomuxeomw
+
+(e) Explain why no forward edges can be found after a breadth-ﬁrst search on
+a graph (which might be either directed or undirected), and why no back
+edges can be found after a breadth-first search on an undirected graph.
+
+[3 Marks]
+
+continued ::::: Page 6 101081/01
+
+Question 4
+
+(a)
+
+Let S be an unsorted array of 271, integers, Give an aigorithm that parti—
+tions the numbers into n pairs, with the property that the partition min-
+
+imises the maximum sum of any pair,
+
+For example, say we are given the numbers {135,9}. The possible parti»
+tions are ((1,3), (5,9)), ((1, 5), (3, 9)) and ((1,9), (3, 5)) The pair sums
+for these partitions are (4,14), (6, 12), and (10,8). Thus the third parti—
+tion has 10 as its maximum sum, which is the smallest maximum sum over
+
+the three partitions.
+
+Your a|gorithm must run in O(nlog n) worst—case time. You do not need
+to prove the correctness of your algorithm, but you should brieﬂy justify
+
+your claims. [6 Marks]
+
+Explain how to build one heap that contains ali eiements of two given heaps
+with n and m elements respectively (where n and m are positive integers).
+Assume that the heaps are given in a tree representation, that is, each node
+has links to its two children. The running time of the algorithm should be
+O(log(n + m)) in the worst case. [6 Marks]
+
+Define a minimum spanning tree (MST) of a connected undirected graph
+with weights on the edges, and brieﬂy describe Kruskal's algorithm for
+finding an MST. [3 Marks}
+
+Describe how to adapt Kruskal’s algorithm to find a spanning tree of max-
+
+imum weight. Briefly justify your answer, [4 Marks]
+
+Suppose that G is a connected undirected graph with weights on the edges.
+Let {V1, V2} be a partition of the vertices of G (every vertex of G beiongs
+to either V, or V2) Consider the set of edges E* that each join a vertex
+in V1 to a vertex in V2. Suppose that there is an edge e in E" that has
+a lesser weight than every other edge in E*. Show that every MST of G
+contains 6. [6 Marks]
+
+continued ::::: Page 7 101081/01
+Question 5
+
+(3) Consider the Stieglitz numbers Sn (n 2 O integer) deﬁned by
+
+S w 371 for n S 3.,
+n 4871-3 + Snwg + Sna for n 2 4.
+
+L Calculate S7. [2 Marks]
+
+iii Write pseudo‘code for a non—recursive function that returns Sn for
+an integer n 2 O. [4 Marks]
+
+iii. Write pseudo—code for a recursive function ”that returns Sn for an
+integer n 2 O. [4 Marks]
+
+iv. How could you improve the running time of the recursive function?
+[2 Marks}
+
+(b) Brieﬂy explain how you might design a deterministic QuickSort with worst—
+case running time 001 log n). [4 Marks]
+
+(c) Explain the relationship between binary search trees and sorting.
+[4 Marks]
+
+(d) Explain how to modify InsertionSort so that it sorts its input into non-
+
+increasing order‘ [5 Marks]
+
+END OF PAPER :::::  ::::: 

@@ -1,0 +1,202 @@
+Page 2 COMPlOBlWEOl
+
+Section A Dr. loannis lvrissimtzis and Dr. Matthew Johnson
+
+Question 1
+
+(a)
+
+(b)
+
+Define the data structure stack and the assodated operations push and
+
+pop. Give an example ofwhen this data structure might be used. [6 Marks]
+
+What does an initially empty stack contain after the foliowing sequence of
+
+operations?
+
+push(4), push(8), pop, push(7), push(1), pop, push(6), pop,
+pop, push(9).
+
+Moreover, what do the operations top and isEmpty return if applied after
+the sequence above? [4 Marks]
+
+Brieﬂy explaﬁn how an array can be used to implement a stack, and write
+pseudocode for the push and pop operations, [6 Marks]
+
+Briefly explain how one array can be used to implement two stacks 81
+and 5;, and write pseudocode for the push and pop operations for each
+stack. The push operations should not return an error unless every cell in
+the array is used. [9 Marks]
+
+continued ::::: Page 3 COMPlOBlWEOl
+
+Question 2
+
+(a) Let T be the foHowing tree:
+
+ 
+
+it What is the height of T?
+
+ii, How many internal nodes does T have?
+
+‘i. What is the depth of node B?
+
+iv, Which nodes are in the subtree rooted at node E?
+[4 Marks]
+
+(b) Let T be the following binary tree:
+
+ 
+
+Write down the Iist of letters that would be produced by a pre-order traver-
+sal of Te [4 Marks]
+
+(c) Describe the linked structure implementation ofa binary tree and brieﬂy
+discuss its advantages and disadvantages compared to the array—list imw
+plementation. [5 Marks]
+
+this question is continued on the next page ::::: Page 4 COMPIOBIWEOI
+
+(d) Give a high level description of the Merge Sort algorithm for sorting a
+
+sequence S with n elements. [4 Marks]
+(6) For initial input S 2 { 41, 10, 29, 21, 7, 13, 46, 24 } draw:
+
+i, The merge sort tree T, wiih the input sequences processed at each
+node of T,
+
+ii. The merge sort tree T, with the output sequences generated at each
+node of T.
+
+[8 Marks}
+
+End of Section A continued ::::: Page 5 COMP1081WE01
+Section B Dr. loannis lvrissimtzis and Dr. Matthew Johnson
+
+Question 3
+
+(a) Let f and g be functions from the set of real numbers to the set of real
+
+numbers. We say that f(x) is O(g(z)) if there are constants C and k such
+that
+
+if(l‘)| S 0' MEN
+whenever a: > k, ‘
+
+Using the above definition, show that
+(San2 + 4:6 +1) is O(zg).
+[6 Marks]
+
+(b) Let f and g be functions from the set of real numbers to the set of real
+
+numbers. We say that f(a) is (2(g(:1:)) if there are constants C and k, such
+that
+
+i.g(x)! S 0' |./'(-I')i
+whenever IL' > k;,_
+Using the above definition, show that if f(ac) is Mm?) then 2- f(x) is also
+52MB). [6 Marks]
+(C) Consider the singly iinked list L illustrated beiovv.
+N3
+
+    
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+What do the foiiowing refer to?
+
+i, Lheadhextdata
+
+ii. L.head.next,next.next [4 Marks}
+
+this question is continued on the next page ::::: Page 6 COMPIOSIWEOl
+
+(d) Give one advantage of using a linked list rather than an array. [2 Marks]
+
+(6) Suppose that N is a node in a singly [inked list that is known to not be
+the tail node, Describe by writing a short snippet of pseudocode how the
+piece of data contained in N can be deleted from the list. The time taken
+for this operation should be independent of the size of the list. Note that
+this implies you cannot refer to the node before N in the list [7 Marks]
+
+continued ::::: Page 7 COMP1081WE01
+
+Question 4
+
+(3)
+
+Give a high level description of the Quick Select algorithm, Briefly state
+the time complexity of the Quick Select aigorithm, including the best—
+
+case, average—case and worst—case time complexity, [6 Marks]
+
+Insert, into an empty binary search tree, entries With keys 25, 35, 19, 53,
+
+43 and 21 (in this order). Draw the tree after each insertion. [6 Marks]
+
+Define a minimum spanning tree (MST) of a connected undirected graph
+
+with weights on the edges. [2 Marks]
+
+Suppose that G is a connected undirected graph with weights on the edges,
+Show that if all the edges have distinct weights, there is a unique MST
+[4 Marks]
+
+Let G be a connected undirected graph with distinct weights on the edges.
+An edge e of G is dangerous if it is the heaviest edge of some cycle in G.
+An edge e of G is useful if it is does not belong to any cycle of G.
+
+i, Prove that the MST of G contains every useful edge.
+
+iii Prove that the MST of G does not contain any dangerous edge.
+
+iii. Consider the following algorithm: the edges of G are considered in
+decreasing order of weight, and if an edge is dangerous it is removed,
+Prove that the resulting graph is the MST of G. [7 Marks}
+
+continued ::::: Page 8 COMPlOBlWEOl
+
+Question 5
+
+(22) Consider the Voita numbers Vn (n 2 1 integer) deﬁned by
+
+V _ 1 for n g 47
+"’ VH + 2V”,3 + BVTH for n 2 5.
+
+i. Calculate V84 [2 Marks]
+
+ii. Write pseudo—code for a non-recursive function that returns Vﬂ for
+
+an integer n 2 1‘ [4 Marks]
+
+iii. Write pseudo—code for a recursive function that returns V” for an
+
+integer n 2 1, [4 Marks]
+
+iv‘ How couid you improve the running time of the recursive function?
+[2 Marks]
+
+(b) Give the definitions of a complete binary tree and a heap. [3 Marks]
+
+(c) Describe the up—heap bubbling process for inserting a new node in a
+heap‘ [3 Marks]
+
+(d) Let T be the following AVL tree:
+
+ 
+
+Draw the AVL tree resulting after the removal of the entry with key 52
+from T, [7 Marks]
+
+END OF PAPER ::::: 

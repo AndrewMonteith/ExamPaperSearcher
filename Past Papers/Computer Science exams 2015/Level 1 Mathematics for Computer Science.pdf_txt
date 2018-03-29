@@ -1,0 +1,244 @@
+Page 2 COMP1021WE01
+
+Section A Logic and Discrete Structures
+(Dr. M. Gadouleau and Dr. G. Mertzios)
+
+Question 1
+
+(a) This question is about 65 (Exclusive—Or).
+
+3. Give the truth tabie of X $3 Y, Express this formula in disjunctive
+
+normal form and in conjunctive normai form, [5 Marks]
+ii, Prove that X A (Y 69 Z) 2 (X /\ Y) G3 (X A Z). [3 Marks]
+iii. Prove that X 8 (Y 41> Z) E (X ® Y) <=> Z. [3 Marks]
+
+(b) What is the Law of the Excluded Middle? Prove it by natural deduction,
+without using any derived rules. [5 Marks]
+
+(c) For each of the following rules of inference, give its deﬁnition and prove it
+by Resolution.
+
+i, Modus Ponens. [3 Marks]
+ii. Modus ToHens. [3 Marks}
+iii. Hypothetical Syllogism. [3 Marks]
+
+continued ::::: Page 3
+
+COMP1021WE01
+
+Question 2
+
+(a) Let A, B, and C be arbitrary sets‘ Prove that
+
+Ax(BﬂC):(AxB)ﬂ(AxC).
+
+[7 Marks}
+
+(b) Let P(X) denote the power set of a set X. Let A and B be two sets.
+
+iii‘
+
+Prove that PM W B) : P(A) ﬂ P(B). [3 Marks]
+
+. If A g B and B 5: A, prove that P(A) LJP(B) ; PM U B) and
+
+that 73(14)U 73(13);é PM U B), [4 Marks}
+
+HA g B and AFB 75 z. prove that P(A\B)\{@} Q F(A)\73(B)
+
+and that 73(A \ B) \ {2'} % 73M) \ P(B). ‘[4 Marks]
+
+'. Give the deﬁnition of an injective function, of a surjective function,
+
+and of a bijective function. [3 Marks]
+
+, Let g : R —> R be such that g(x) = 22: + 1. Is 9 injéctive? Is 9
+
+surjective? Justify your answers. [2 Marks]
+
+Let h : Z —> Z be such that 11(1) : 5.x 4;» 2. Is h injective? is h
+
+surjective? Justify your answers‘ [2 Marks]
+
+End of Section A continued ::::: Page 4 COMP1021WE01
+
+Section B Logic and Discrete Structures
+
+(Dr. K. Dabrowski and Dr. A. Erickson)
+
+Question 3
+(a) Deﬁne a binary relation from a set A to a set B. [2 Marks]
+(b) Which of the following binary relations are graphs of functions from R to
+
+(C)
+
+> (d)
+
+R? Justify your answers.
+
+i‘ {(my) : LyER, 2y=4r+100};
+
+ii, {($774) : x,yER, yzx1000+x2+$};
+
+iii. {(x,y) : my 6 R, 3/2 2 4x2}. [3 Marks}
+
+When do we call a binary relation anti-symmetric? Let R and S be anti-
+symmetric binary relations. Is Rﬂ 5 always an anti-symmetric relation? Is
+BUS always an anti-symmetric relation? Justify your answers. [5 Marks]
+
+Let R be an irreﬂevae binary relation. 15 R o R, (i.e., H composed with
+
+itseif) always an irreﬂexive relation? Justify your answer. [3 Marks]
+
+Consider the binary relation “Has the same birthday as" deﬁned on the set
+of 3” people. Is this relation an equivalence reIation'Z Justify your answ‘er.
+[4 Marks]
+
+Recall that a poset (A? R) consists ofa set A together with a partial order R
+on A. LetA :{4,6,8,10712,14}. LetR1={(T1/)€ AXA [ $ 3 y+2},
+and let R2 = {($731) 6 AXA [ z 2 31+?) is Rl a reflexive relation? ls R1
+an antisymmetric relation? 15 R1 8 transitive relation? Answer the same
+three questions for R2 as well, Determine whether (A7 R1) and (A122)
+
+are posets. Justify your answers. [8 Marks]
+
+continued ::::: Page 5 COMPlOZlWEOl
+
+Question 4
+
+(a) When do we say that a first-order formula is in prenex normal form?
+
+[2 Marks}
+
+(b) When do we say that a first—order formula is vaiid? Give an example of a
+
+valid first—order formula. [4 Marks]
+
+(C) Prove that the foilowing two formuiae are not valid:
+
+3. (V1A(x) VVxB(.r)) 2 (3:T,A(.Y)> A 3.113(0) [4 Marks]
+ii, (VxA(x) $ VxB(a:)) =;> Vm(/1(:r) :ﬁ M»B(1’)). [5 Marks]
+
+(d) Let (QB, E) be a signature, where C, D are constants and E is a binary
+relation. Consider the following interpretation. Let the domain of discourse
+be the set of vertices of some directed graph. The constants C and D are
+two distinct vertices of the directed graph. The binary relation E is the set
+of edges of the directed graph, that is, E(m,y) is true if and only if there
+is a directed edge from vertex CL“ to vertex y. Give an equivalent sentence
+
+in first—order iogic for each of the following sentences:
+i, There exists a vertex equal to neither C nor D that has a directed
+edge to C and a directed edge to D. [2 Marks]
+
+ii, There is a directed edge from vertex C to every other vertex except
+to vertex D, L [4 Marks]
+
+iii. There exists a vertex that has exactly one directed edge going out
+
+and no directed edges coming in. [4 Marks]
+
+End of Section B continued ::::: Page 6 COMP1021WE01
+
+Section C Discrete Mathematics and Linear Algebra
+
+(Professor A. Krokhin)
+
+Question 5
+
+(a)
+
+A fair coin is tossed four times. Are the following events E and F inde—
+
+pendent?
+
+c E: Both heads and tails come up at least once.
+
+0 F: Heads comes up at most once.
+
+Justify your answer. {8 Marks]
+
+Define mutually independent Bernoulli trials. What is the probability of
+exactly 1'; successes in n mutually independent Bernoulli trials? Justify
+
+yoﬁr answer. [6 Marks]
+
+A box contains 3 white and 7 biack balls. A ball is chosen at random from
+the box. What is the probability that the ball is black? [2 Marks]
+
+We have two boxes. The first box contains 3 white and 7 biack bails, and
+the second box contains 6 white and 3 biack balls, A ball is chosen at
+random from the first box, and, without looking at its Colour, put into the
+second box. Then a ball is chosen at random from the second box, and it
+is white. Is it more likely than not that the ball moved from the first box
+
+to the second was black? Justify your answer. [9 Marks]
+
+continued ::::: Page 7 COMPIOZIWEOI
+
+Question 6
+
+(a) Deﬁne an Eulerian circuit in a graph. Prove that each connected graph, in
+
+which each vertex has even degree, has an Eulerian Circuit. [6 Marks]
+
+(b) Assume that a Connected graph G on 77. vertices has 19 2 0 vertices of
+
+degree 1 and n * ls vertices of degree 2‘
+
+i. Determine the possible value(s) of 1c if G has no cycles‘ [7 Marks]
+
+ii. Determine the possibie value(s) of k if G has at least one cycle.
+[7 Marks]
+
+Justify your answers.
+
+(c) Define a full m-ary tree. How many nodes does a full m-ary tree with 7L
+internal nodes have? Justify your answer‘ [5 Marks]
+
+End of Section C continued ::::: Page 8 COMPIOZIWEOI
+
+Section D Discrete Mathematics and Linear Algebra
+(Professor A. Krokhin)
+
+Question 7
+(a) Deﬁne Euler’s qi—function, expfaining all notions used in the definition.
+Explain how 42(7),) can be computed from the prime decomposition of n,
+i.e, from the representation 71 : p11“ - 4p? where p1 < < p; are
+
+primes. Prove your formula for n 2 pk (p prime) and determine $0750),
+
+Show your working. {8 Marks]
+
+(b) State the Chinese Remainder Theorem [5 Marks]
+
+(c) Consider the foilowing matrix
+
+0 3 —3 2
+A = 1 5 2 O
+2 —4 2 1
+7 ——1 O 0
+Find the determinant of A
+i. by using cofactors [6 Marks]
+ii. by using elementary row operations [6 Marks]
+
+continued ::::: Page 9 COMP1021WE01
+Question 8
+(3) Define a subspace of a vector space. Do the invertible 2 x 2 matrices
+
+form a subspace of the space of ail 2 X 2 matrices? Justify your answer.
+[5 Marks]
+
+(b) Define hnear independence of a set of vectors. is the foHowing set of vectors
+in R4 linearly independent? {1}] : (072,7,5),02 2 (71,2,4)—»2),v3 2
+(3, —4, —5, 11)}, Justify your answer. [7 Marks}
+
+(c) Deﬁne a hnear map between two vector spaces, Is the map f : R2 ——> R2
+deﬁned by ﬂay) 2 (0,1) linear? Justify your answer. {5 Marks]
+
+(d) Define eigenvectors and eigenvalues of a square matrix. Find the eigenval—
+ues and describe a” eigenvectors of the following matrix
+
+[8 Marks]
+
+END OF PAPER ::::: 

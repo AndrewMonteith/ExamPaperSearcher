@@ -1,0 +1,398 @@
+Page 2 COMP1071WE01
+
+Section A Machine Architecture and Digital Electronics
+
+(Dr. M. Bordewich)
+
+Question 1
+
+Consider the Kamaugh map given below for a Boolean function F on four inputs
+
+A, B,
+
+(a)
+
+(b)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+C and D.
+AB
+CD 00 01 11 10
+OO 1 O 0 1
+01 l O 1 1
+11 0 1 1 1
+10 1 O O 1
+Express the Boolean function F represented by the Karnaugh map above
+
+in unsimplified ”Sum of Products" form‘ [2 Marks]
+
+List the rules for drawing loops on a Karnaugh map, then copy out the
+Kamaugh map above, and draw a correct set of loops on it. [9 Marks]
+
+Give a simplified formula for this Boolean function, based on the loops you
+have drawn on the Kamaugh map. [3 Marks]
+
+Draw a circuit diagram that gives an appropriate circuit for the function F
+using 2—input AND and OR gates, and NOT gates. [2 Marks]
+
+If we assume that individual logic gates are combinationai Circuits, give
+three rules a larger circuit must satisfy in order to be a combinational
+circuit. For each rule, give an example of a circuit that fails to be a
+
+combinational Circuit only by failing to satisfy that ruie. [6 Marks]
+
+Discuss both to what extent a multip‘exor circuit created from tristate gates
+may be considered a combinational circuit and may not be considered a
+
+Combinational circuit. [3 Marks]
+
+continued ::::: Page 3 COMP1071WE01
+Question 2
+(3) Describe in detail how an nMOS transistor works, in both its on state and
+
+off state. Indude in your description an annotated copy of the diagram
+below, [10 Marks]
+
+ 
+
+ 
+
+(b) Give a truth table showing the output Z of the transistorcircuit below for
+each possible value of the inputs A, B and C. [6 Marks]
+
+Von VDD VDD
+A_‘—_q
+‘ Z
+—-——0
+"— E
+
+-~{
+
+CD
+0
+
+ 
+
+ 
+
+(c) Express Z (the output of the circuit above) as an unsimplified “Sum of
+Products" Booiean formula in A, B and C, based upon your truth table
+from part (b) [3 Marks]
+
+(d) Simpiify your expression for Z as far as possible, showing your working
+[3 Marks]
+
+(6) Draw a combinational circuit for Z using AND, OR and NOT gates, based
+on your simplified formuia from part ((1'). [3 Marks]
+
+continued ::::: Page 4 COMP1071WE01
+
+Question 3
+
+(a)
+
+In a single—precision floating point representation the three components are
+represented by 1, 8 and 23 bits, and an offset of 127 is used What are
+the three components of the ﬂoating point representation of a number?
+Explain how to interpret a binary floating point representation, and conven
+
+the single~precision ﬂoating point
+0100 0101 0111 1100 1000 0000 0000 0000
+
+to a decimal. [8 Marks]
+
+Draw a circuit diagram of a full adder for adding two bits with possible
+
+carry—ih. [2 Marks]
+
+Draw a circuit diagram of a 4—bit ripple adder, made from full adder
+
+components. [1 Marks]
+
+What is twos-complement representation? Express the decimal numbers
+
+37 and -54 in 8—bit twos-complement binary representation. [4 Marks]
+
+How can twos—complement representation be used in the design of a space—
+efficient simple arithmetic logic unit (ALU)? Demonstrate your answer by
+sketching a simple ALU that can perform addition, subtraction, bit—wise
+AND and bit—wise OR uséng any of the following components: adders,
+bit—wise NOT gates, bitrwise AND gates, bit-wise OR gates, and 21 mu!“
+tiplexors, Identify the settings of the control inputs that give each function.
+
+{10 Marks]
+
+continued ::::: Page 5 COMP1071WE01
+
+Question 4
+(a) Describe each of the essential eiements of the Little Man Computer (LMC)
+modei of a CPU. [5 Marks]
+(b) The LMC uses direct, absoiute addressing. Describe the difference between
+direct, indirect, immediate and indexed addressing. [4 Marks]
+(5) The standard instruction set of the LMC is:
+Mnemonic Description Mnemonic Description
+LDA Load IN input
+STO Store OUT Output
+ADD Add BR Branch
+SUB Subtract BRZ Branch on zero
+HLT Halt or Stop ‘ BRP Branch on positive
+
+Where each instruction (except IN, OUT and HLT) takes a 2 digit address,
+e.g. ADD 60 looks up the value in mailbox 60 and adds it to the current
+total in the calculator. This instruction set is now augmented with an
+additional index register X, and with the additional instructions:
+
+Mnemonic Description
+
+LDA© Load with indexed addressing
+STO© Store with indexed addressing
+ADD© Add with indexed addressing
+SUBCQ Subtract with indexed addressing
+LDX Load a vaiue into register X
+DEC Decrement register X
+
+iNC increment register X
+
+BRPX Branch if X positive
+
+BRZX Branch if X is zero
+
+Illustrate how indexed addressing can be used by giving assembiy code
+for the augmented LMC so that when run the LMC takes user inputs
+maxing, . . . >90”, and stores values x1, . . i 711:”, in some set of sequential
+mailboxes (order is not important). Note that the first input TL is the
+
+number of subsequent inputs to store. [6 Marks]
+
+this question is continued on the next page ::::: Page 6 COMP1071WE01
+
+(d)
+
+Describe how the program from (c) could be implemented in the standard
+LMC, Le. using only direct absolute addressing, give a name for this type
+of code, and discuss the disadvantages of the resuiting program compared
+to the program from (c). [5 Marks]
+
+Describe, including a smail example, how indirect addressing can be used
+to access a larger memory than can be directly addressed, and discuss how
+much memory the LMC model could access using indirect addressing.
+
+[5 Marks]
+
+End of Section A continued ::::: Page 7 COMPIOYIWEOI
+Section B Operating Systems (Dr M. Gadouleau)
+
+Question 5
+
+(3) Describe ‘prepaging’, induding its purpose and its potential drawback.
+[3 Marks]
+
+(b) Using the page reference string below, show the total page faults for each
+of the replacement atgorithms below that would occur with a three—frame
+
+reference memory altocation. Assume that the frames are originally empty.
+
+Page reference string: 4,2,6,1,3,5,4,1x2,1,5,4,2,1,6
+
+i. First in First Out (FIFO)
+it Optimal (OPT)
+iii, Least Recently Used (LRU)
+
+[9 Marks]
+
+(c) Assume a set of processes P1, P2, P3, and P4 arrive at different times
+in the ready queue. The table below shows the burst time, the priority
+(smallest priority number implies highest priority) and arrival time for each
+of the processes.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Process Burst time Priority Arrival Time
+P1 6 1 0
+P2 2 3 2
+P3 8 0 4
+P4 4 2 6
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Draw a Gantt chart illustrating the timing of the execution of the processes
+for each of the foltowing scheduhng algorithms:
+
+i, First—Come, First—Served (FCFS)
+
+ii. Preemptive Priority (PP)
+
+iii, Shortest Job First (SJF)
+
+iv. Shortest Remaining Time First (SRTF)
+
+[3 Marks]
+
+(d) When considering CPU scheduhng, what do we mean by starvation? Which
+CPU scheduiing algorithms from part (c) may teave processes vulnerable
+
+to starvation? Justify your answer, {5 Marks]
+
+continued ::::: Page 8 COMPlOTlWEOl
+
+Question 6
+
+(a)
+
+(e)
+
+(f)
+
+A disk drive has 100 cylinders indexed from 0 to 99. The current cylinder
+request being serviced is at Cyiinder 84. The previous cyiinder request
+
+serviced was 60,
+
+The disk queue has the following CyIinder requests pending:
+86>17,3,50751,70375743.
+
+For each of the‘four algorithms, draw a disk scheduling diagram to show
+disk head movement,
+
+E. First Come First Served (FCFS)
+
+ii. Shortest Seek Time First (SSTF)
+
+iii. LOOK
+
+' iv. Circular LOOK (C-LOOK)
+
+[8 Marks]
+
+Using the diagrams in part (a), calculate the seek time for each of the four
+
+‘disk scheduling algorithms [4 Marks]
+
+When talking about disk scheduling, what do we mean by starvation?
+
+Which algorithm(s) in part (a) may cause starvation? For each algorithm
+
+that causes starvation, provide an example {6 Marks]
+Disk access time is dependent on rotational latency and seek time. Brieﬂy
+describe:
+
+i. seek time
+
+ii. rotational latency
+
+{2 Marks]
+
+What is thrashing and why does it occur in demand—page memory man-
+
+agement systems? [2 Marks]
+
+Expiain how a page fault frequency scheme can be used to control thrash-
+
+ing. [3 Marks]
+
+End of Section 8 continued ::::: Page 9 COMP1071WE01
+
+Section C Introduction to networks (Dr T. Breckon)
+
+Question 7
+
+(a)
+
+(b)
+
+(C)
+
+List the three bottom layers of the 08} reference model‘ Describe the role
+
+of each of them as follows.
+
+i. Explain what kind of data structure it deals with.
+ii. Mention at least one relevant algorithm/protocof,
+
+iii‘ Say what its purpose is (without describing it in detail).
+
+[10 Marks]
+Draw a schematic diagram of a router and explain where the translations
+between packets and frames occur, [5 Marks]
+
+Consider the simple Positive Acknowledgement with Retransmission bro—
+tocof with a S(ender) and a R(eceiver), Assume that whenever 5 got a
+valid ack(nowledgement) for a successfully received frame, that ack arrived
+well before the timeout of 5 occurred, Fill in the gaps (indicated by square
+symbols) in the following scenario:
+
+5 sends frame 1; E]; R doesn’t get anything; E]; 5 sends frame [1; R gets
+vahd frame I] and processes it; R sends ack E; El; timeout of S; S sends
+frame D; R gets valid frame a and D; R sends ack D; 8 gets valid ack
+C]; S sends frame D; R gets valid frame D and D; R sends ack B; S gets
+valid ack C]; 5 sends frame D; .....
+
+[10 Marks]
+
+continued ::::: Page 10 COMP1071WE01
+Question 8
+(3) Explain the simplest Positive Acknowledgement with Retransmission pro-
+
+tocol.
+
+i. Describe both sender's and receiver's algorithms (you may want to
+
+use pseudocode)‘
+
+ii‘ Argue that no frames are lost‘ dupiicated or received in a wrong order.
+{10 Marks]
+
+(b) List the layers of both OS! and TCP/IP models and show the correspom
+
+dence between layers, [5 Marks]
+
+(c) Consider the following simple network with nine routers. Apply the Dijkstra
+shortest path aigorithm to ﬁnd a path from router A to router 8. (Give
+worked out details such as the tentative and permanent Sabels at each
+
+iteration.)
+
+[10 Marks]
+
+END OF PAPER ::::: 

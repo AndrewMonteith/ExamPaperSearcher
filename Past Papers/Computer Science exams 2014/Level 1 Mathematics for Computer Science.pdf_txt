@@ -1,0 +1,231 @@
+Page 2 101021/01
+Section A Logic and Discrete Structures (Dr. M. Gadouleau)
+
+Question 1
+
+(a) Give the resolution rule of inference Justify H using truth rabies. [4 Marks]
+(b) Explain the resolution proof system. [7 Marks]
+
+(0) Prove or disprove by resoiution:
+((PV 61)A(PV")A("'PVﬁr)) é q [6 Marks]
+
+(d) Prove or disprove by resoiution:
+((t 2 ﬂy) /\ (x é ((ﬁsz) /\5)) /\ (th) A (1y 2? (“Aﬁw))) :> (xv ﬁw),
+[8 Marks]
+
+continued ::::: Page 3 101021/01
+Question 2
+
+(a) State the two De Morgan’s laws and the two distribution laws. [4 Marks]
+
+(b) Reduce (X :> Y) z? Z to disjunctive normal form and to conjunctive normal
+form. [6 Marks]
+
+(0) Use De Morgan’s and the distribution laws to simplify the formula:
+p/\(q\/—:(er)). [3 Marks]
+
+(d) Determine whether the foilowing sets of connectives are functionally com
+plate: {@,A} and {©,V.,F}. [6 Marks]
+
+(e) Is (X (i) Y) (a Z |ogical|y>equivalent to X 41> (Y 4:) Z)?
+Is (X 2 Y) :> Z logically equivaient to X : (Y : Z)? [6 Marks]
+
+End of Section A continued ::::: Page 4 101021/01
+Section B Logic and Discrete Structures (Dr.K.Dabrowski and Dr.G.Mertzios)
+Question 3
+
+(a) Let A and B be two arbitrary sets. What is a binary relation from A to B?
+Let f : A ——> B be a function. What is the graph of f? Give an exampte of a
+binary relation from A to B that is not the graph of some function. [6 Marks]
+
+(b) Let A be a set, and let R be a relation on A. When do we call R symmetric?
+When do we cat! R ahti-symmetric’? Give an example of a set A and a rela-
+tion R on A that is neither symmetric nor anti-symmetric (you shoutd justify
+
+your answer). [6 Marks]
+
+(0) Which of the following binary relations R are equivalence relations? You
+should justify your answers.
+
+i. R={(x7y)E]R><IR:x<y—t-5}.
+'ii. R: {(x,y) e N X N: there existmm E N 'such that mx: my}.
+[7 Marks]
+
+(d) A poset is a set A together with a partial order R on A. Are the following
+posets? You should justify your answers.
+
+i. A = {1,2,3,4,5,6} and R: {(131),(2,2),(3,3)7(3,5),(4,4),(5,5)}.
+ii. A:{1,2,354,5,6} and
+R z{(1,1),(1,6),(2,2),(3,3),(4,4),(5,5),(6,6)}. [5 Marks]
+
+continued ::::: Page 5 101021/01
+Question 4
+
+(a) Explain how formulas in First-Order logic are recursively constructed from
+the atoms. [5 Marks]
+
+(b) Let <S.,A,B,C,D) be a signature where S is a constant, A,B,C are unary
+relations, and D is a binary reiation, Consider the interpretation of this sig—
+nature over the set N of natural numbers, which is defined as foiiows:
+
+A={x:3kEN(x=2k“1)}
+
+B={x13k€N(x=2k)}
+C:{x:3kEN(x:3k)}
+D: {@6in : aka N(yzkxi}
+526
+
+Express iq English the meaning o_f the following Fir'st-Order sentences:
+
+i._ VxVy((D x,y) AB(x)) 2 B(y)) [3 Marks]
+ii. VXﬁEMA x) AB(y) AD(y,x)) [4 Marks]
+iii. VxVsz((D(x,y) /\D(y,z) AB(x) /\C(y)) => D(S,z)) [5 Marks]
+
+(6) Using the interpretation of the signature (S7AﬁB,C,D> from Question 4(b),
+give an equivalent sentence in First—Order logic for each of the following
+Engiish sentences:
+
+i. Every natural number divisible by 3 is odd or divisibie by 6, or both.
+[4 Marks]
+
+iip There is an odd number x such that, for every ythat is a multiple of x,
+there exists an even number z that is a multiple of y. [4 Marks]
+
+End of Section B continued ::::: Page 6
+
+101021/01
+
+Section C Discrete Mathematics and Linear Algebra (Professor A. Krokhin)
+
+Question 5
+
+(a) Four fair dice are thrown. What is more likely: that the four numbers are
+
+all (pairwise) different or that exactly two of the four numbers are odd? You
+
+shouid justify your answer. [8 Marks]
+
+(b) There are 11 players in team A. It is known that four of them (cail them
+high-scorihg) score a pehaity with probability 0.8 each and the other seven
+(iow-sooring) with probabiiity 05 each.
+
+A piayer is chosen randomly from team A (without knowing his scoring
+ability), and the piayer scores a penalty. Use Bayes’ Theorem to decide
+whether this piayer is more iikeiy to be high-scorihg than iow-scoring.
+You should justify your answer. ' [9 Marks]
+
+. There is.a penalty shoot-out with another team, team B (of 11 players),
+
+in which every player from each team takes exactly one shot, so that 22
+shots are to be taken. Every player in team B scores with probabiiity
+0.64. A team's score is the total number of goals scored by players
+from this team in the shoot-out. Which team is expected to have a
+higher score, A or B? You should justify your answer. [8 Marks]
+
+continued ::::: Page 7 101021/01
+
+Question 6
+
+(a)
+
+(b)
+
+What is a spanning tree of a graph? Prove that every connected graph has
+a spanning tree. [6 Marks]
+
+in a shooting practice (where each shot uses up exactly one buttet), each
+time Jack hits the target, he gets three additional bulletst Jack started prac»
+tice with exactly one bullet and took 43 shots when he ran out of bullets. How
+many times did Jack hit the target? You shoutd justify your answer, modeling
+this situation as a tree. [7 Marks]
+
+There are five people at a dinner. Among each set of three of them, there
+is at least one pair of people who know each other and at least one pair
+of people who do not know each other. Model this situation as a graph
+and show that it is possibte to arrange chairs for these people around a
+round tabte so that each person knows both people sitting next to her/him.
+
+[6 Marks]
+
+What is a bipartite graph? Describe the following graphs and decide which
+of them are btpartite:
+
+i. the S-vertex cycle C6,
+ii. the 6-cube Q6,
+
+iii. the 6-vertex complete graph K6?
+
+You shoutd justify your answers. [6 Marks]
+
+End of Section C continued ::::: Page 8 101021/01
+Section D Discrete Mathematics and Linear Algebra (Professor A. Krokhin)
+Question 7
+
+(a) Is it true that, for all positive integers a,b,c7m such that each of a,b,c is
+strictly smaller than m, it holds that
+
+i. ifaEb modmthen(a~c>3(b-c) modm?
+
+ii. if (a‘c) E (Ire) modmthen a E b modm ?
+You should justify your answers. [4 Marks]
+
+(b) Find the muﬁtiplicative inverse of a modulo m (or show that it does not exist)
+if
+
+i. a = 7 and m z 25; [5 Marks]
+ii. a=6andm221, [5 Marks]
+
+You should justify your answers.
+
+10 2
+(c)LetA=< 21 3>andB=
+
+HHO
+NHL»
+
+Compute, whenever possible, the following matrices:
+
+1. AB, [2 Marks]
+ii. 2A + ET, [2 Marks]
+iii. BTA +ABT{ [2 Marks]
+
+You shouid justify your answers
+
+(d) Define elementary row operations and elementary matrices. Which square
+
+matrices can be represented as products of elementary matrices? [5 Marks]
+
+conﬁnued ::::: Page 9 101021/01
+
+Question 8
+(a) Find A" if
+4 2 3
+A: I 0 71
+2 1 2
+
+[5 Marks]
+
+(b) Define a basis of a vector space, caretutty explaining alt notions that you use
+in the definition. Show that the matrices
+
+1 O O 1 O 0 O 0
+o 0 ’ 0 0 ’ 1 0 ’ 0 1
+form a basis of the vector space of alt 2 X 2 matrices. [6 Marks]
+
+(0) What is the null space of a matrix? Find a basis for the null space of the
+following matrix:
+
+—1 2 0 1
+1 -—1 1 1
+A:
+—1 3 1 3
+—5 8 —2 l
+
+[9 Marks]
+
+(d) Let f : R6 a R4 be a linear map defined by
+f(Xt,xz7X37X47X57X6) = (X2- 2X4 ~16, 0, 236! "Xm X1+X3+X4)~
+
+Find the standard matrix of this linear map. [5 Marks]
+
+END OF PAPER :::::  ::::: 

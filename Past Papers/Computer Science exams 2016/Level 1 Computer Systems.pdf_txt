@@ -1,0 +1,265 @@
+Page 2 COMP1071/WE01
+
+Section A Machine Architecture and Digital Electronics
+(Dr M. Bordewich)
+
+Question 1
+
+(3) Explain what is meant by the architecture, micro-architecture and the state
+ofa CPU. [6 Marks]
+
+(b) A MIPS CPU has 32 general purpose registers $0, $at, $v0—$v1, $a0—5a3,
+$tO—$t9, $sO-$58, $kO<$k1. $gp, 53p and $ra. State the conventional usage
+of registers $v0-$v1, $30$a3, $t0-$t9, $50-$58, $Sp and $ra, noting the
+difference between 5 and t registers as you do so. [6 Marks]
+
+(c) Explain what the stack is and how it is used. [5 Marks]
+
+(d) If the stack pointer starts with the (hexadecimal) value 7fffeffc. give
+the new value for the stack pointer after lines 1—6 of the code below have
+been executed, and also after all the lines of code have been executed
+
+[4 Marks]
+myfunction:
+
+or $a0, $0, $31
+addi $sp, $sp, -8
+5w $tl, 4($sp)
+sw $ra. O($sp)
+jal testfunction
+lw $ra, O($Sp)
+[w $t1. 4($sp)
+addi $sp, $sp, 8
+slt $v0, $v0, $t1
+11: jr $ra
+
+§???ﬁ'9‘97‘?9’§¥73‘3
+
+._.
+F?
+
+(e) Describe the type of addressing that is used in line 8. stating in detail what
+line 8 does‘ [4 Marks]
+
+continued ::::: Page 3 COMP1071/WE01
+Question 2
+
+You are asked to design a circuit taking a 4-bit input ABCD representing a
+hexadecimal number O-F, and outputting a Signal Y to drive the middle horizontal
+element of a 7—segment LED display. (Therefore the output should be 1 for inputs
+representing values 2,3,4,5,6,8,9,A,B,D,E or F, and 0 for inputs 0,1,7 or C.)
+
+(3) Give a Boolean expression for Y in sum of products form, [2 Marks]
+(b) Explain how a Karnaugh map is constructed and used. [6 Marks]
+
+C Give a Karnaugh ma for Y and use it to produce a simpler Boolean ex—
+P
+pression for Y, [8 Marks]
+
+(d) You are now told that you are only going to get in puts representing decimél
+digits 0-9, although the input is still 4 bits. Explain how this might affect
+your analysis, and use an appropriate Karnaugh map to provide a Boolean
+formula for Y in this new situation. [6 Marks]
+
+(e) You are finally told that you will be presented with a 64—bit binary number,
+which you can represent either in hexadecimal or in decimal using several
+7—segment displays. Which number format would you choose? Justify your
+answer. [3 Marks]
+
+continued ::::: Page 4 COMP1071/WE01
+Question 3
+
+(a) Explain in detail what is meant by the logic level of a gate or circuit in the
+context of digital electronics [5 Marks]
+
+(b) Why are logic levels used? Are there any disadvantages to using iogic
+
+levels? [4 Marks]
+(c) Explain the difference in function between an nMOS and a pMOS transis-
+tor as depicted below. [2 Marks]
+
+d
+
+nMOS g——{E
+
+s
+
+S
+pMOS 9—41:
+0'
+
+(d) Sketch a Circuit made only from nMOS and pMOS transistors, a ground
+connection, a high voltage supply, two inputs A and B, output Y and ﬁnes
+connecting them, such that Y takes the value of A NOR B. [6 Marks]
+
+(e) What does it mean to say that 'NOR gates alone form a functionally com-
+plete set’? [2 Marks]
+
+(f) Sketch a circuit using only NOR gates that has two inputs A and B and
+output Y such that Y takes the value of A q; B (A exclusive OR B),
+[6 Marks]
+
+continued ::::: Page 5 COMP1071/WE01
+Question 4
+(a) Explain in detail how DRAM works. Specify the role ofthe MDR, the MAR,
+
+the word lines and bit lines. Include a high level diagram of a DRAM array,
+as well as a diagram of a single bit of DRAM storage, [15 Marks]
+
+(b) What are the advantages and disadvantages of DRAM over SRAM?
+[2 Marks]
+
+(c) What is the width of 3 MAR, and what limitation does the width of the
+MAR determine? [2 Marks]
+
+(d) Brieﬂy describe two different techniques for mitigating memory access de—
+lays in a CPU. [6 Marks]
+
+End of Section A continued ::::: Page 6 COMP1071/WE01
+
+Section B Operating Systems
+(Dr M. Gadouleau and Dr M. Johnson)
+
+Question 5
+
+(a) Assume a set of processes P1, P2, P3, and P4 arrive at different times in
+the ready queue Table 1 below shows the burst time, the priority (smallest
+priority number implies Egjeit priority), and the arrival time for each of
+the processes.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Process Burst Time Priority Arrivai Time
+Pl 8 1 0
+P2 2 2 2
+P3 3 1 5
+P4 1 4 6
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Table 1: Processes table
+
+Draw a Gantt chart illustrating the execution of the processes for each of
+the following scheduling algorithms:
+1. Shortest Remaining Time First
+ii. Shortest Job First
+iii. Round Robin (time slice of 2 time units) [6 Marks]
+(b) For each algorithm from part (a), explain whether it could pre—empt a
+running process. [3 Marks]
+
+(c) Using the Gantt charts in part (a) calculate the average waiting time for
+each of the three algorithms. Show all your working. [3 Marks]
+
+((1) Briefly describe the five possible process states. [5 Marks]
+
+(e) As a process executes, it changes state. Using a diagram, show the event
+triggers that will cause a process to enter into each of the states described
+in part (d). [8 Marks]
+
+continued ::::: Page 7 COMP1071/WE01
+
+Question 6
+
+(a) Using the page reference string below, find the total number of page fauits
+
+(C)
+
+(d)
+
+that would occur with a three frame reference memory allocation for each
+of the page replacement algorithms listed below, Assume that the frames
+are initialiy empty,
+
+Page reference string: 5,0,1,2,0,3,0,4,2,3,0,3
+i. First In First Out (FIFO)
+ii. Least Recently Used (LRU)
+Show your working. [8 Marks]
+
+Consider a disk with 200 cylinders (from O to 199). Suppose the head is
+on cylinder 63‘ It then receives requests for [/0 to blocks in cylinders
+
+108, 169, 47, 131, 12, 125, 75, 77.
+Calculate the seek time for each of the following disk scheduling algorithms.
+
+i. First Come First Served (FCFS)
+
+ii. Shortest Seek Time Firm (SSTF)
+
+iii. Cyciic Scan (C-SCAN)
+
+iv. Cyclic Look (C-LOOK) [6 Marks]
+
+Brieﬂy describe the three widely used methods for allocating disk space to
+
+a file. [9 Marks]
+Disk access time is dependent on rotational latency and seek time, Brieﬂy
+describe:
+
+i, seek time,
+
+ii. rotational latency. [2 Marks]
+
+End of Section B continued ::::: Page 8 COMP1071/WE01
+
+Section C Networks
+(Dr T. Breckon)
+
+Question 7
+
+(a) Describe the purpose of packet routing within a computer network and
+outline the key steps of a routing algorithm in common use within the
+internet. [8 Marks]
+
+(b) Outline the operation of controlled access to the shared communication
+
+media within the operation of a computer network using:
+
+1. a wired physical layer connection (e.g. Ethernet), [4 Marks]
+ii. a wireless physical layer connection (e.g. Wiﬁ). [6 Marks]
+
+(c) Describe one method for binary data encoding used at the physical layer
+‘ within the protocol stack and state any limitations of this method,
+[4 Marks]
+
+(d) Describe three properties of a connection oriented network data transmis—
+sion. [3 Marks]
+
+continued ::::: Page 9 COMP1071/WE01
+Question 8
+
+(a) Describe the key concepts of a protocol stack within the context of com-
+puter networking. [6 Marks]
+
+(b) Describe the use of frames within the Data Link Layer of a protocol stack.
+[6 Marks]
+
+(c) Outline each of the following data framing methods used within the Data
+Link Layer of a protocol stack.
+
+i. byte count, [3 Marks]
+ii. byte stuffing, [3 Marks]
+iii. bit stuffing. [3 Marks]
+
+(d) Outline the operation of flow control at the Data Link Layer of a protocol
+
+stack using positive acknowledgements and retransmission. [4 Marks]
+
+END OF PAPER ::::: 

@@ -1,0 +1,264 @@
+Page 2 COMP1081 W501
+Section A Dr. Stefan Dantchev and Dr. Tom Friedetzky
+Question 1
+
+(3) Explain what a queue data structure is. (When doing so, think of it as a
+
+black-box, Let avoid implementation—reiated details.) [4 Marks]
+
+(b) Given a queue and an element. which is distinct from everything that the
+
+queue contains give an algorithm that
+
+i. counts the eIements in the queue and does not change the queue;
+{2 Marks]
+
+ii. puts the end element right at the beginning but does not Change the
+order of the others; [2 Marks}
+
+iii, as above in (ii), but you are only given two extra variables, each of
+which can hold a single element from the queue (or the extra distinct
+
+element) and nothing else. '[4 Marks}
+
+(c) Expiain what a stack data structure is. (Again, think of it as a black-boxl
+
+and avoid implementation—refated details.) [4 Marks]
+(6) Explain how you can simulate a queue by two stacks. [4 Marks}
+
+(6) Explain how you can simulate two separate stacks by a single queue. You
+may assume that you have special constants (elements which are different
+from anything that normaIIy the stacks contain) and a few extra variables,
+each of which can hold a single element, including one of the special ones,
+
+[5 Marks]
+
+continued ::::: Page 3
+
+COMPIOBI WEDI
+
+Question 2
+
+(a) Binary search trees:
+
+iii.
+
+L Exp$ain the SST property, [2 Marks]
+Explain how to insert a node into 3 BST‘ [2 Marks]
+Explain how to remove a node from a BST. [3 Marks]
+
+iv. Draw a BST after the following sequence of operations:
+
+insert 50 25 40 30 100 200 150 70 27
+
+delete 200
+insert 10 5 15
+delete 25
+[3 Marks]
+You do not have to provide code for ii. and iii.. nor do you have to go
+
+into detail as to how to fix the pointers (you may simply say something
+
+like
+
+“make the new node a right child of this node” )
+
+(b) Explain brieﬂy how recursive binary search works‘ What conditions on the
+
+input do you need to have for it to work, and why? How can you eliminate
+
+the recursion? Justify your answers {5 Marks]
+
+(c) Heaps:
+i. Explain the heap property. [2 Marks]
+ii. Explain how a heap can be represented in an array, [2 Marks}
+
+Draw the heap corresponding to the array
+A = [22‘13‘10,8‘7;6$2,4n375],
+
+[2 Marks]
+
+. Explain how the heapify function works. [4 Marks]
+
+End of Section A continued ::::: Page 4 COMPIOBl WEGl
+
+ 
+
+Section 8 Dr. Tom Friedetzky and Dr. Matthew Johnson
+
+Question 3
+
+(a)
+
+From a depth-first search of a directed graph G, a depth-ﬁrst tree T is
+obtained that contains the edges traversed during the search. Describe
+how the edges of G can be classified with respect to T as tree, forward,
+
+back or cross edges‘ [4 Marks]
+
+Suppose that G is a directed graph that contains at least one directed cycle
+and that the edges of C have been classified with respect to a depth—first
+tree. Is it possible that every edge of G is either a tree edge or a cross
+
+edge? Explain your answer. {5 Marks]
+
+Find a minimum spanning tree (MST) of the graph below using Prim’s
+algorithm State the edges of the tree in the order in which they are added
+to the MST. [5 Marks]
+
+ 
+
+this question is continueé on the next page ::::: Page 5 COMP1031 WEDl
+
+(d) Suppose we have integer values between 1 and 1000 in a binary search
+tree and search for 363, using the standard lockup method. Which of the
+
+following cannot be the sequence of keys examined? Explain your answer.
+
+[5 Marks]
+
+L 2 252 401 398 330 363
+i. 399 387 219 266 382 381 278 363
+
+iii. 3 923 220 911 244 898 258 362 363
+
+v, 4 924 278 347 621 299 392 358 363
+V. 5 925 202 910 245 363
+
+(e) Let S be an unsorted array of 271 integers Give an aigorithm that part1»
+tions the numbers into n pairs, with the property that the partition min—
+
+imises the maximum sum of any pair.
+
+For example, say we are given the numbers [1,3,5, 9}. The possible parti—
+tions are ((13)., (519)), ((1,5),(3,9)), and ((1,9),(31501 The pair sums
+for these partitions are (414), (6,12), and (10,8). Thus the third parti—
+tion has 10 as its maximum sum, which is the smallest maximum sum over
+
+the three partitions,
+
+Your algorithm must run in O(n. log n) worst—case time. You do not need
+to formally prove the correctness of your algorithm, a briefjustiﬁcation is
+sufficient [6 Marks}
+
+continued ::::: Page 6 COMP1081 WEDI
+Question 4
+
+(a) For each of the following problems, give an aigorithm that finds the desired
+numbers within the given amount of time. You do not need to provide
+pseudo—code, and your answers do not need to be very detaiied: something
+such as “sort the numbers using algorithm A and return the 5th smallest
+as x and the 17th largest as y" is acceptable, A briefjustification of the
+
+correctness of your solution is sufficient; no formal proofs are required,
+
+i. Let S be an unsorted array of 77 distinct integers. Give an aigorithm
+that finds the pair Ly E S that maximises ix ~ y1, Your algorithm
+must run in O(n) worst—case time. [3 Marks]
+
+ii. Let S be a sorted array of n distinct integers. Give an algorithm that
+finds the pair agy E S that maximises Ix w y!. Your algorithm must
+run in 0(1) worst—case time {3 Marks]
+
+iii. Let S be an unsorted array ofn distinct integers. Give an algorithm
+that ﬁnds a pair xty E S that minimises |z — y‘. for J; 75 y, Your
+algorithm must run in O(niogn) worst—case time [3 Marks}
+
+iv. Let S be a sorted array of n distinct integers. Give an aigorithm
+that ﬁnds a pair any 6 S that minimises 13: A y], for m 32‘ 1/. Your
+
+algorithm must run in O(n) worst~case time. [3 Marks}
+
+(b) Is 22” = 0(2")? Justify your answer. {2 Marks}
+
+(C) Suppose a depth—first search is run on the directed graph on vertex set
+V 2 {1: . 1 . :8} given by the adjacency matrix below, with vertex 1 as the
+
+source. Classify each edge of the graph as a tree, forward, back or cross
+
+edge. [6 Marks]
+0 0 0 0 0 1 1
+O 1 (J 1 0 1 0
+0 ’1 0 (J 1 1 0 (1
+1 1 0 0 0 1 1 1
+1 0 0 (J 0 0 U 0
+1 0 0 (J 0 0 1 0
+0 0 0 O 1 0 0
+0 0
+
+this questiar. is continued on the next page ::::: Page 7 COMPIOBI WE01
+
+ 
+
+(d) Let G be an undirected graph with weights on the edges. Let T; and T2 be
+two distinct minimum spanning trees of G‘ Show that there is an edge 81
+m T1 but not Tg and an edge 82 in T2 but not Tlsuchthat{T1—61}Ueg
+is also an MST. [5 Marks]
+
+continued ::::: Page 8 COMP1081 WEOI
+
+Question 5
+
+(a)
+
+A breadth—ﬁrst search on an undirected graph uses two arrays: a distance
+array and a predecessor array. When the search is complete, what do the
+
+values in these arrays represent? [2 Marks]
+
+We want to modify breadth—first search so that when the algorithm termi~
+hates, each vertex in the breadth—first tree is labelled either odd or even,
+
+and
+
+o the source vertex 3 is labelled odd. and
+
+o the tabe! of each vertex differs from that of ail its neighbours in the
+breadth—first tree (that is, if a vertex is labeHed odd all its neighbours
+
+in the tree are labelled even and Vice versa).
+
+The label 01‘s can be set at the start of the search. Describe how the iabei
+of every other vertex can be set when it is ﬁrst discovered by the search.
+[3 Marks}
+
+Suppose that the modiﬁed breadth-first search is run on a connected undiA
+rected graph G. Prove or disprove the following: G’ contains a cycie of odd
+length (that is, containing an odd number of edges) if and only if there are
+vertices u and 1: that are adjacent in G and have the same label (that is,
+are both labelled odd or both labelled even). [8 Marks}
+
+Briefly explain how you might design a deterministic QUickSort with worse
+
+case running time O(nlogn), [5 Marks}
+
+this question is continued on the next page ::::: Page 9 COMP1081 WE01
+
+(e) Recall the Master Theorem:
+
+¢ If f(n) = O(nmgme‘) for some constant 6 > 0 then T(n) =
+@(niogucLJ)
+
+o If f(n )= 9011”“ 0)) then T(71)=@(n.3°gb(“)logn)
+o If f(n) = O(nl“g'v(a>+‘) for some constant e > 0 and if af(n/b) S
+
+cf(n) for some constant c < 1 and all n large enough then T(n) :-
+
+@(fW)
+
+For each of the following recurrences, give an expression for the runtime
+T(n) if the recurrence can be solved with the Master Theorem, Otherwise,
+
+indicate that the Master Theorem does not apply.
+
+3. T(n) = :TUI/Z) + 112
+ii. T(n) = T(n/2) + n2
+iii, T(n )ZT ()+n/2
+iv. T(n) = 2"T(n/2) + n“
+v. TM) 2 16T(n/4)+
+vi. T(N)=2T (n/2)+niogn
+vii. T(n) = 2T (71/2) + n/logn.
+
+[7 Marks]
+
+END OF PAPER ::::: 

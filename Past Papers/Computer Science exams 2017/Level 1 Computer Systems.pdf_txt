@@ -1,0 +1,411 @@
+Page 2 of 2 SUBJ????-WE01 ::::: Computer Systems (COMP1071/WE01) ::::: Page 2 COMP1071/WE01
+
+Section A Machine Architecture and Digital Electronics
+(Dr M. Bordewich)
+
+Question 1
+
+(2) Explain what a decoder is and sketch a 4—to—1 decoder circuit using AND,
+OR and NOT gates. [3 Marks]
+
+(b) Explain what a multiplexor is and sketch a 2—to—1 multiplexor circuit using
+AND, OR and NOT gates. [3 Marks]
+
+(c) Explain what a tristate gate is, and sketch a 2—to—1 multiplexor circuit using
+
+tristate gates. [4 Marks]
+
+(d) Explain what two's—complement representation is, how it is formed and
+
+give the 8—bit two’s—complement representation of —38. [3 Marks]
+
+(e) Design a simple ALU that can do addition, subtraction, bitwise AND and
+bitwise OR. You may use logic gates, decoders, multiplexors, adders and
+other components that you define. Sketch and label your design. Explain
+
+carefully how the control lines function. [12 Marks]
+
+continued ::::: Page 3 COMP1071/WE01
+
+Question 2
+
+Consider the following linear truth table, in which three of the outputs are un—
+
+known (represented as ?):
+
+Input A Input B Input C Input D Output F(A,B,C,D)
+0 0 0 0 1
+0 0 0 1 0
+0 0 1 O 1
+0 0 1 1 O
+0 1 0 0 1
+0 1 0 1 ?
+0 1 1 O ?
+0 1 1 1 1
+1 0 0 0 0
+1 0 0 1 0
+1 0 1 0 0
+1 0 1 1 0
+1 1 0 0 1
+1 1 0 1 1
+1 1 1 0 ?
+1 1 1 1 0
+
+(3) Use a Kamaugh map to obtain a simple Boolean expression for F, assuming
+
+that unknown outputs should be set to O. [7 Marks]
+
+(b) Use a Kamaugh map to obtain a simple Boolean expression for F, assuming
+
+that unknown outputs can be freely set to either 0 or 1. [4 Marks]
+
+(c) Explain what it means to say ”NOR gates alone form a functionally com—
+
+plete set”. [2 Marks]
+
+(d) Give a circuit diagram consisting only of NOR gates for F (assuming that
+unknown outputs can be freely set to either 0 or 1). Show your working
+and label the circuit so that it is clear how it corresponds to your Boolean
+formula for F from part (b). [12 Marks]
+
+continued ::::: Page 4 COMP1071/WE01
+
+Question 3
+
+(3)
+
+Explain what is meant by the architecture, micro—architecture and state of
+a CPU. [6 Marks]
+
+List the state elements of the MIPS CPU. [3 Marks]
+
+Explain precisely what the MIPS “save word" instruction sw $t1, 4($sp)
+does. [3 Marks]
+
+The machine code for the instruction in (c) is AFA90004, in hexadecimal
+representation. The first 6 bits give the op—code, the next 5 bits identify
+the register containing the base address, the next five identify the regis—
+ter containing the data word to be saved and the last 16 bits give the
+immediate value to be offset to the base address. Give the op—code, the
+two register numbers and the immediate data value in binary, and also the
+
+op—code in decimal. [5 Marks]
+
+Sketch the state elements of the MIPS CPU and circuitry connecting them
+
+that would realise the sw instruction. [8 Marks]
+
+End of Section A continued ::::: Page 5 COMP1071/WE01
+
+Section B Operating Systems (Dr S. Doswell)
+
+Question 4
+
+(a)
+
+(d)
+
+(6)
+
+Using the page reference string below, show the total page faults for each
+of the replacement algorithms listed in i to iii that would occur with a three—
+frame reference memory allocation. Assume that the frames are initially
+
+em pty.
+
+Page reference string: 0, 1, 2, 3,0, 1,4,0, 1, 2, 2, 2
+
+i. First In First Out (FIFO)
+ii. Least Recently Used (LRU)
+iii. Optimal (OPT)
+
+Show your working. [9 Marks]
+
+Briefly describe Belady’s anomaly. Which ofthe three algorithms in part (a)
+suffer from Belady’s anomaly? [2 Marks]
+
+Describe how the Second Chance page replacement algorithm works.
+[4 Marks]
+
+Define the term thrashing, and explain how a page fault frequency scheme
+
+can be used to control thrashing. [5 Marks]
+
+What is prepaging (also known as prefetching)? Describe its purpose, key
+features and potential drawback(s). [5 Marks]
+
+continued ::::: Page 6 COMP1071/WE01
+
+Question 5
+
+(2) Briefly describe the five possible process states. [5 Marks]
+
+(b) Assume a set of processes A to E arrive at different times in the ready
+queue. The table below shows the burst time, the priority (smallest priority
+
+number implies the highest priority), and the arrival time for each of the
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+processes.
+Process Priority Arrival Time Burst Time
+
+A 1 3 7
+
+B 3 6 3
+
+C 5 0 5
+
+D 2 5 4
+
+E 4 4 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Draw a Gantt chart illustrating the execution of the processes for each of
+
+the following CPU scheduling algorithms.
+
+i. First—Come, First—Served (FCFS)
+ii. Shortest Job First (SJF)
+
+iii. Round Robin (RR) with a time slice of 2 units
+
+[9 Marks]
+
+(c) For each of the algorithms in part (b) give the average waiting time.
+[3 Marks]
+
+(d) What is meant by the term pre—empting? What is the pre—emptive version
+of the Shortest Job First (SJF) CPU scheduling algorithm called and how
+does it work? [4 Marks]
+
+(e) In CPU scheduling, what is meant by the term process starvation? De—
+scribe how process starvation could be managed when CPU scheduling.
+[4 Marks]
+
+End of Section B continued ::::: Page 7 COMP1071/WE01
+
+Section C Databases (Dr S. Jaf)
+
+Question 6
+
+(a) Briefly define what is meant by the terms: Modification anomaly; Primary
+
+key; lst Normal Form (1NF). [3 Marks]
+
+Consider the following tables.
+
+(b)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Tickets
+parkCode ticketNo ticketType ticketPrice
+SP4533 11001 Adult 24.99
+SP4533 11002 Child 14.99
+SP4533 11003 Senior 8.50
+FR1001 13601 Child 18.99
+FR1001 13603 Senior 20.99
+FR1001 13604 Child 9.65
+UK2622 21366 Adult 28.49
+UK3452 888567 Senior 22.50
+UK3452 888568 Child 12.12
+UK3452 888569 Adult 42.10
+ThemePark
+parkCode parkName city country
+
+ 
+
+FR1001 Disney Paris France
+UK2622 GoldTown Windsor UK
+UK3452 Legoland London UK
+SA1342 Adventure Rome Italy
+SP4533 Miniland Madrid Spain
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Suppose that the manager wanted to increase the ticket price for all tickets
+that are £10.00 or less, by 10%. Write an SQL query that will make this
+modification. [3 Marks]
+
+Write a query to return the ticket price, park code and ticket type for all
+tickets that have park code starting with the string ”UK” and have ticket
+price between £10.00 and £40.00. [4 Marks]
+
+Give an SQL left outer join statement that will return all the park codes,
+park names, cities, ticket numbers, and ticket types from the tickets and
+theme park tables. [4 Marks]
+
+this question is continued on the next page ::::: Page 8 COMP1071/WE01
+
+Consider the following schema for the relation WorkPIace which stores informa—
+tion about the projects, the employees who work on those projects along with
+the departments that manage projects and emplyees.
+
+Workplace {projectName, projectManager, employeeld, employeeName,
+projectBudget, projectStartDate, employeeSalary, departmentName,
+
+departmentManager}
+
+(e) Generate a suitable second Normal Form (2NF) schema from the schema
+above, and state the primary key and foreign key(s) for each schema you
+produce. [5 Marks]
+
+(f) Generate a suitable third Normal Form (3NF) schema from the schema
+above, and state the primary key and foreign key(s) for each schema you
+produce. [6 Marks]
+
+continued ::::: Page 9 COMP1071/WE01
+
+Question 7
+
+(a) Briefly define the following terms: Deletion anomaly; Foreign key; Candi—
+date key. [3 Marks]
+
+(b) For the following scenario draw the Entity—Relationship (ER) diagram using
+crow’s foot notation, clearly showing the entities, their relationships and
+
+the cardinalities of these relationships.
+
+A factory produces many items, while every item is produced
+by exactly one factory. Each factory exclusively employs several
+workers. Each employee packages many items, while each item
+is being packaged by exactly one employee. On the other hand,
+each customer may place many orders, or no order at all. Each
+order contains at least one item and each item sold is contained
+
+in a unique order.
+
+[10 Marks]
+
+Suppose you have the following two tables in a database: one table is called
+‘Fruits' and one called ‘Colours'. Each record in the colours table is tied to a
+
+particular fruit by the fruit ID.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Fruits Colours
+fruitld fruitName price currentht fruitld colour
+1 apple 0.89 965 1 red
+2 orange 1.29 1240 2 orange
+3 banana 0.65 1100 3 yellow
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(c) Write an SQL statement using the inner join to list all fruit names, their
+
+colour, price and the current quantity of that fruit. [3 Marks]
+
+(d) Write an SQL statement to remove ‘orange’ from the fruits table.
+[3 Marks]
+
+(e) Write an SQL statement to add a new record to the fruits table for 1000
+units of grapes, which cost £1.10 per unit, and use an ID of 10 for
+grapes. [3 Marks]
+
+(f) Write an SQL statement to find all the fruit names that contain the letter
+‘e' . [3 Marks]
+
+END OF PAPER ::::: 

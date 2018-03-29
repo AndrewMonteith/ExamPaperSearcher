@@ -1,0 +1,396 @@
+Page 2 101071/01
+
+Section A Machine Architecture and Digital Electronics
+(Dr. M. Bordewich)
+
+Question 1
+
+You are designing an automatic ordering system for a cafe which has 11 dishes
+on its menu. When a client presses a button for one of these dishes, the sig—
+nal is represented as a 4—bit binary number as follows: 0000: roast beef, 0001:
+asparagus tart (V) 0010: sausages, 0011: cheese sandwich (V) 0100: chicken
+pie. 0101: steak pie, 0110: griHed mushroom (V) 0111: quiche (V) 1000: salad
+(V), 1001: meatbaHs. 1010: tomato soup (V) You wish to create a (combina—
+tional) circuit which takes four inputs ABC and D which together encode this
+4—bit number, and has one output F indicating whether the dish is suitable for a
+vegetarian (indicated with a (V)) The output shouid be 1 if the signal represents
+
+a vegetarian dish. In all other cases the output should be 0.
+
+(3) Express the Boolean function F. given above, \in unsimplified “sum of prod-
+utts" form. [3 Marks]
+
+(b) Draw a Karnaugh map for this truth table and use it to produce a simpler
+formula for the same Booiean function. You should describe the construc-
+tion of the Karnaugh map and process used to produce a simplified formula,
+
+and show your working on this example, [10 Marks]
+
+(C) Draw a circuit diagram that gives an appropriate circuit for the function F
+using 2-input AND and OR gates and NOT gates. [2 Marks]
+
+(d) It is now decided that the output value does not matter for inputs rep~
+resenting numbers that do not correspond to dishes (since there are 16
+possible input states and oniy 11 dishes), For input values representing
+dishes the vaIue must be 1 or 0 as before, Explain how this could at—
+fect your calculations so far and produce a simpier formula for a Boolean
+
+function that satisﬁes this new requirement: [5 Marks}
+
+(e) Draw a circuit diagram that gives an appropriate circuit for the revised
+function from part (d) using 2-input AND and OR gates and NOT gates.
+[2 Marks}
+
+this question is continueé on the next page ::::: Page 3 101071/01
+
+(f) h‘ the contamination and propagation delay of AND, OR and NOT gates is
+given by M(AND) : 30.,1:Cd(OR) : 25,tcd(NOT) : 20 and tpd(AND) :
+607tpd(OR) = 50 and ipd(NOT) : 30, what is the contamination and
+propagation delay of your final circuit? Show your working, [3 Marks]
+
+continued ::::: Page 4 101071/01
+
+Question 2
+
+(8)
+
+Deﬁne precisely what is meant by the term combinational circuit and
+give an example of a circuit consisting entireiy of AND, OR and NOT
+gates that:
+
+ii is a combinational circuit
+
+ii, is not a combinational circuit, and explain why. [6 Marks]
+Give a circuit diagram for a 2—1 multiplexer using tristate buffers, ex—
+piain why this circuit is not a combinationai circuit and describe why such
+
+a circuit might be used instead of a correct combinational circuit for a
+
+multiplexer. [6 Marks]
+
+With reference to the circuit below, explain what is meant by 'race condi—
+
+tions' in a circuit, [4 Marks]
+
+N1 = CLK-D
+
+ 
+
+ 
+
+For a single physical logic gate in a circuit deﬁne the propagation delay
+(PD) and the contamination delay (CD) and give a reason why these
+may be different from each other. [3 Marks]
+
+Give values of the propagation and contamination delay of AND, OR and
+NOT gates such that in the circuit above:
+
+i, if each logic gate operates within bounds given by its contamination
+and propagation delay, then CLK is guaranteed to rise to 1 before
+Qwev drops to 0V [2 Marks]
+
+iii if each iogic gate operates within bounds given by its contamination
+and propagation delay, then Qprev is guaranteed to drop to 0 before
+CLK rises to l. [2 Marks]
+
+iii, if each logic gate operates within bounds given by its contamination
+
+and propagation delay, then either outcome could occur. [2 Marks}
+
+continued ::::: Page 5 101071/01
+
+Question 3
+
+(a)
+
+(b)
+
+Give a circuit diagram for an SR—Iatch using logic gates. [3 Marks]
+W
+M
+
+For the first input wave form given above, draw the output Q of an SR—
+Iatch. [2 Marks]
+
+W
+Describe conciseiy the behaviour of a D-iatch and, for the second input
+
+wave form given above. draw the outpUt Q of a D—Iatch. [3 Marks]
+
+Describe concisely the behaviour of a ﬂip-flop and, for the second input
+
+wave form given above, draw the output Q of a flip—flop. [3 Marks]
+
+For a register (bank of flip—flops), define the times tsemthO‘dJCCq and
+tpcq‘ [4 Marks]
+
+CLK
+
+mm
+
+tpd4 = 4 ns
+
+ 
+
+ 
+
+For the circuit segment shown above, derive a lower bound on the cycie
+time Tc, the time between clock ticks, if tsemp : 0,2ns, thold = 0,4ns,
+tccq = O‘3ns, tpcq = 0.5ns and the propagation delays of the combinational
+
+logic eiemehts are as given in the diagram, [2 Marks]
+
+Explain what pipeiining of a sequential circuit is, and show how it can be
+used to aHow a faster dock in the circuit above using (i) one, and (ii) three
+additional registers. In each case quantify the minimum permissibie cycle
+time TC. [8 Marks}
+
+continued ::::: Page 6 101071/01
+Question 4
+
+(a) A MIPS CPU has 32 general purpose registers $0, $at, SvO—Svl, $aO—$a3,
+$tO—$t9, $sO—$s8, $kO-$k1, $gp, $sp and $ra. Give the conventional usage
+of registers $v0~$v1, $aO—$a3, $tO—$t9, $sO—$s8, $sp and $ra, noting the
+
+difference between s and t registers as you do so. [6 Marks]
+
+(b) Explain what the stack is and how it is used. [5 Marks]
+
+i am writing an assembly function compare that wiii take two arguments in $a0
+and $a1 and will return a value 1 if the $31” triangular number is less than SaO
+and return a 0 otherwise, i am making use of another function triangular which
+takes one argument $30 and returns the 5330‘“ triangular number. I know nothing
+about this function except that it foiiows convention. My code is below.
+compare:
+
+or $tO, $0, $20
+
+or $a0, $0, $a1
+
+addi $sp, $553, -4
+
+sw $ra, O($sp)
+
+jai triangular
+
+iw $ra, 0($sp)
+
+addi $sp, $sp, 4
+
+sit SVO, $vO, $t0
+
+jr $ra
+
+@mﬂg‘ngh’f—f
+
+..d
+F?
+
+(c) What is the purpose of iines 4,5,7 and 8? [2 Marks]
+(d) What mistake have i made with this function call? [2 Marks]
+
+(e) Using a selection for the assembly instructions below, give MIPS assembiy
+code for the function triangular. Recall that the nth triangular number is
+equal to the sum 1+2+ ..71.
+
+add 5rd, $rs, $rt i addi $rs, $rt, immediate
+
+sub $rd, $rs, $rt : lw $rs, immediate($rt)
+and Srd, $rs, $rt
+or $rd, $is, $rt 1 mi $rs, immediate
+sit Srd, $rs, $rt
+
+beq $rs, $rt, label
+
+ 
+
+sw $rs, immediate($rt)
+
+i ori $rs, immediate
+beq $rs, immediate, label
+it 55rd
+
+ 
+
+jai label i
+
+[10 Marks]
+
+End 0:” Section [3» continued ::::: Page 7 101071/01
+
+Section B Operating Systems (Dr. M. Gadouleau)
+
+Question 5
+
+(a)
+(b)
+
+Describe the ﬁve possible states a process may enter, [5 Marks]
+
+Assume a set of processes P1, P2, P3, and P4 arrive at different times
+in the ready queue The table be!ow shows the burst time, the priority
+(smailest priority number implies highest priority) and arrival time for each
+
+of the processes,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ﬁProcess Burst time Priority Arrival Time
+Pl 4 3 0
+P2 5 2 2
+P3 8 0 3
+P4 3 1 5
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Draw a Gantt chart illustrating the timing of the execution of the processes
+for each of the foilowing scheduling algorithms:
+
+i. Non—Pre—emptive Priority (NPP)
+ii. Shortest Job'First (SJF)
+
+iii. First—Come, First-Served (FCFS)
+iv. Shortest Remaining Time First (SRTF)
+
+[8 Marks}
+
+Using the Gantt charts in part (b) calcuiate the average waiting time for
+
+each aigorithm. (Show all your work‘)
+
+[4 Marks}
+
+Which CPU scheduhhg algorithms from part (b) may leave processes vul—
+
+nerable to starvation? Justify your answer.
+
+[4 Marks]
+
+When considering page reptacement aigorithms, what is Belady’s anomaly?
+Give two examples of page replacement algorithms: one that suffers from
+
+the anomaty and one that does not. [4 Marks]
+
+Continued ::::: Page 8 101071/01
+Question 6
+
+(a) Using the page reference string below, show the total page faults for each
+of the replacement algorithms listed i) to iii) that would occur with a three—
+frame reference memory allocation. Which one produces the fewest faults
+
+and why? Assume that the frames are originaliy emptyv
+
+Page reference string: 4,5,2,1,3,3,l,5,4,2
+
+E. First In First Out (FIFO)
+ii. Optimal (OPT)
+iii. Least Recently Used (LRU)
+
+[10 Marks]
+
+(b) A disk drive has 100 cylinders indexed from 0 to 99. The current cylinder
+request being serviced is at cyhnder 30. The previous cyhnder request
+
+serviced was 65.
+
+The disk queue has the following cylinder requests pending: 17, 40, 55,
+88. 71, 2, 3, 31.
+
+For each of the three algorithms below, draw a disk scheduling diagram to
+show disk head movement.
+
+It SCAN
+ii‘ Shortest Seek Time First (SSTF)
+iii. LOOK
+[6 Marks]
+
+(c) Using the diagrams in part (b). calculate the seek time for each of the
+three disk scheduling algorithms. [3 Marks]
+
+(d) Three major methods for allocating disk space to ﬁles are widely used,
+Describe each method brieﬂy. [6 Marks]
+
+End of Section B continued ::::: Page 9 101071/01
+Section C Networks (Dr. S. Dantchev)
+Question 7
+
+(3) Explain the rotes of the data-link layer and the network Iayer in the context
+of the OSI reference modelt You should include: the data structure each
+layer deals with; design issues; some relevant algorithms/protocois; and
+
+how the two layers interact with one another‘
+
+[10 Marks]
+
+(b) Explain what the core of the count—to—inﬁnity problem is. Give an example
+of how this problem could occur. [5 Marks]
+
+(C) Consider the simple PAR protocol with a S(ender) and a R(eceiver), As-
+sume that whenever 5 got a vahd ack(n0wiedgement) for a successfully
+received frame, that ack arrived well before the timeout of S occurred. Fill
+
+in the gaps (Le, explain what has happened) in the following scenario‘
+
+S sends frame 0; ; 5 gets valid ack 1; S sends frame .7
+
+ 
+
+R gets valid frame __. and processes it; R sends ack ..__;
+
+ 
+
+timeout of S; 8 sends frame ._._; R gets valid frame __ and
+___._.____._._..__; R sends ack _; 5 gets valid ack _; S sends frame
+
+_; R gets a corrupted frame and ; S gets valid ack _;
+
+ 
+
+5 sends frame _; .....
+V [10 Marks}
+
+continued ::::: Page 10 101071/01
+Question 8
+
+(a) Expkain the three concepts that are central to the OSI reference model: ser—
+vices, interfaces and protocols, How were these components designed in the
+TCP/IP model and how did this impact on the model itself? [10 Marks]
+
+(b) Briefly explain the acknowiedgements in both the Selective Repeat protocol
+and the Go Back N protocol. What is the main advantage of the former
+over the latter? {5 Marks]
+
+(c) Consider the following simple network with nine routers. Apply the Dijkstra
+shortest path algorithm to find a path from router A to router 8‘ (Give full
+
+details, such as the tentative and permanent labets at each iteration)
+
+B
+
+0797—9
+
+2 7
+
+ 
+
+[10 Marks]
+
+END QF PAPER ::::: 

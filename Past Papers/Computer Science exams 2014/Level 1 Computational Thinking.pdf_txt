@@ -1,0 +1,213 @@
+Page 2
+
+101051/01
+
+Section A Computational Thinking (Professor LA. Stewart)
+
+Question 1
+
+This question is on problems and problem solving.
+
+(a) What is the Stable Marriage problem? (You should explain the meaning
+
+of any concepts you use to define the problem.) Is the Stable Marriage
+
+problem a decision, search or optimisation problem? [6 Marks]
+
+(b) How wouid you abstract an instance of the Stable Marriage problem for
+
+Computational solution?
+
+[2 Marks]
+
+(c) Show how the GaIe-Shapiey algorithm proceeds on the following instance
+
+of the Stable Marriage problem:
+
+a man's preferences
+
+m1 2 1111
+7712 2 'LUz
+777.3 I 1114
+TM 2 104
+
+wz
+M
+W
+
+ml
+
+104
+wl
+wl
+
+wa
+
+we
+w4
+w2
+
+w;
+
+a woman's preferences
+w} I M3 M4 7711 m2
+U12 1 7714 M3 m2 m1
+103 2 717.1 7712 m4 7715
+
+1114 2 mi 7713 M4 m2
+
+[6 Marks]
+
+(d) What is an independent set in a graph? What is the difference betweeh a
+
+maximum independent set and a maximal independent set? [5 Marks]
+
+(e) Explain how finding a maximum independent set in a certain graph can help
+
+us build (large) sets of codewords of length 5 so that we might undertake
+
+1—bit error detection in any transmitted codeword, [6 Marks]
+
+continued ::::: Page 3 101051/01
+
+Question 2
+
+This question is on programming and programming languages
+
+Brieﬂy exptain the difference between an algorithm and a program Suppose
+that we have an a!gorithm and that we wish to implement it in Python,
+
+How many different implementations are there of this algorithm?[3 Marks]
+
+For each of the following descriptions, state the programming paradigm
+that is being described and give an example of a programming language of
+
+that paradigm:
+
+i. programs are characterized by their use of programming instructions
+
+to explicitly change a program's state
+
+i programs generally consist of a set of axioms and a goal statement,
+
+along with some rules of inference
+
+iii. programs are designed to automate frequently used tasks that involve
+
+calling or passing commands to external programs.
+[6 Marks]
+
+In order to execute a high-level program we must first convert it into
+machine code so that the CPU can 'understand' it. Briefly expiain the
+difference between compiiation and interpretation, Give an example of a
+programming language that is compiled and one that is interpreted; and
+give an advantage of compilation over interpretation, and of interpretation
+
+over compilation. [6 Marks}
+
+this question is continued on the next page ::::: Page 4 101051/01
+
+(d) Regmar expregs'zcms feature strongly in the compilation of programs A
+regular expression is deﬁned as foHows (below, 2 is a finite alphabet):
+0 any a E E is a regular expression
+- Q) and 6 are special reguiar expressions
+0 if w and w’ are regular expressions then so are:
+— (W)
+— (wW)
+- (of)
+Explain how a regular expression deﬁnes a set of strings over 23.
+
+[7 Marks]
+
+(6) What is the reiationship between regular expressions and finite state ma-
+chines? (You need not define a finite state machine but you should deﬁne
+
+any other concepts you use‘) [3 Marks]
+
+continued ::::: Page 5 101051/01
+Question 3
+
+This question is on algorithms for sorting.
+
+(a) First, give a natural language description of the algorithm Bubble-sort,
+and, next, give pseudo—code for your algorithm. [8 Marks]
+
+(b) Describe how your Bubble—sort algorithm works on the input list of num-
+bers 4, 5,3,2,5,2. [4 Marks]
+
+(c) Explain how Shaker—sort differs from Bubbie-sort and show how Shaker-
+sort proceeds on the list of numbers 4, 5) 3, 2, 5, 2, [8 Marks]
+
+(d) What is the time complexity of Bubee—sort and Shaker-sort? In terms
+of the number of swaps made, give a worst-case input of a list of 5 input
+numbers for Bubee—sort. [5 Marks}
+
+End of Section A continued ::::: Page 6 101051/01
+
+Section B Computational Thinking (Professor LA. Stewart)
+
+Question 4
+
+(a)
+
+(b)
+
+(C)
+
+(6)
+
+Give two different resources used by an algorithm that we might mea—
+sure Give two reasons why we usually measure the resources used by
+an algorithm rather than the resources used by an implementation of an
+algorithm. [4 Marks]
+
+What is the worst~case time complexity of an algorithm? Why is it eX-
+
+pressed as a function on the natural numbers? [3 Marks]
+
+Deﬁne precisely what we mean when we say that two functions f(n) :
+N ——> N and g(n) :N —> N are such that f : O(g), Explain the reasoning
+behind why we use this notation to express time complexities. Give an
+
+objection to the usefulness of the Big—O notation. [6 Marks]
+
+Define the complexity classes P and NP. Give two objections to the def-
+inition of a tractable or efficiently solvable problem as a problem in the
+complexity class P. [6 Marks]
+
+What is an NP-complete problem? What wiil the consequence be if some
+NP—complete problem turns out to be in P? (You should explain your
+reasoning.) [6 Marks}
+
+continued ::::: Page 7 101051/01
+
+Question 5
+
+(a)
+
+(b)
+
+(C)
+
+What is a Boolean function? |n relation to Boolean functions, what is
+special about the collective use of NOT~, AND- and OR—gates?[2 Marks]
+
+What is a NAND—gate? Show that any NOT—. AND— or OR-gate can be
+constructed using only NAND—gates‘ [9 Marks]
+
+A computer's hardware is built from gates which are themselves built from
+transistors. in order to execute a high—level program using hardware, many
+programs need to be compiled into machine code. What are the 4 phases
+of the compilation process? |n which phase of compilation are ConteXt-free
+
+grammars used? [5 Marks}
+
+Deﬁne a context—free grammar and explain how it generates a set of
+strings. [4 Marks]
+
+Give a context~free grammar that generates the set of strings consisting
+of the symbol a repeated an arbitrary (possibly zero) number of times
+followed by the symbol b repeated the same number of times (that is, the
+set is {akb’c : [C = 0,1,2,.. .}) [5 Marks]
+
+END OF PAPER :::::  ::::: 

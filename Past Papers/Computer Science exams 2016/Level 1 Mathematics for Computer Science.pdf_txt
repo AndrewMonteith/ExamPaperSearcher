@@ -1,0 +1,266 @@
+Page 2 COMP1021WE01
+
+Section A Logic and Discrete Structures
+
+(Prof. LA. Stewart)
+
+Question 1
+
+(a) What is a theorem in the proof system Natural Deduction? What do we
+
+mean when we say that Natural Deduction is both sound and complete?
+[3 Marks}
+
+Describe the rule of Natural Deduction for introducing elimination and
+
+explain how it is used in proofs. [5 Marks]
+
+Give a proof in Natural Deduction of the foHowing propositional formulae:
+
+i X => (Y /\ W) |~ (X :> W) /\ (X 1? Y) [3 Marks]
+ii. AiBi—BVﬁ/X [7 Marks}
+
+(You shouid only use the rules of Natural Deduction in your derivations
+If you wish to use Natural Deduction proofs of certain formulae, age, the
+Law of the Excluded Middle, then you should derive these proofs before
+
+using the formutae.)
+
+What is conjunctive normal form? Explain how the proof system Resolution
+is used to prove a propositional formula (be sure to describe the actual
+
+resolution ruie of inference)‘ [7 Marks}
+
+continued ::::: Page 3 COMPlUZlWEDl
+Question 2
+(a) it With respect to Propositional Logic; what do we mean when we say
+
+that a set of logical connectives is functionally compiete? [1 Mark]
+
+‘ Explain whether the following sets of logical connectives are function—
+
+aHy comp\ete:
+
+l. {“2} [4 Marks]
+2‘ {1} where X ’f Y .=_ -|(.X /\ Y) [4 Marks}
+
+'. Explain how we can give semantics to a propositional formula involv»
+
+ing the Boolean variables X17X2,.V.,Xn by using sets and a Venn
+
+diagram [4 Marks}
+' , Give the interpretation of the formula X1/\(X2 \/ ﬁXg) using a Venn
+diagram. [2 Marks]
+'. Let A1,A2, . . . ,An be sets, for some n 2 1, Deﬁne the Cartesian
+product A1 >< A2 X >< An. [1 Marks]
+
+‘. Let A1, Ag and A3 be non~empty sets. Explain why the Cartesian
+
+product (A1 >< A2) x A3 is different from the Cartesian product A1 ><
+(A2 >< A3). [3 Marks]
+
+(d) Let X 2 {1, 2, ....,n}, for some n 2 1. Describe a bijection from the power
+set ”P(X) to the set of all n—bit strings {0,1}“ (you should explain why
+your function is a bijection)‘ [6 Marks]
+
+End of Section A continued ::::: Page 4 COMP1021WE01
+
+Section B Logic and Discrete Structures
+
+(Dr. M. Johnson)
+
+Question 3
+
+(a)
+
+(b)
+
+Define a binary relation from a set A to a set B. [2 Marks]
+
+Let A = {—3,013,6} and B = {—4.,O,4,8}. Let R be a binary relation
+from A to B where for all (my) 6 A X B, (ray) 6 R, if and only if
+Ix; < lyl Determine which pairs of A x B are in R. [3 Marks]
+
+Let R, be a binary relation on the set of natural numbers N such that
+(a7b) E R, if and only if a,+ b is even‘ ls R reflexive? ls R symmetric? ls
+
+R transitive? Justify your answers. [5 Marks]
+
+Let R be a symmetric and transitive binary relation on a set A such that
+there exists a E A such that (mac) 6 R for all r E A. Prove that R is
+reflexive. [5 Marks]
+
+Let A = {m b, 0, cl, 8}. Let R be an equivalence relation on A such that R
+has three equivalence classes Suppose also that (a, d) e B and (b, c) E R.
+Write out R as a set [5 Marks]
+
+Recall that a poset (A‘ R) consists of a set A together with a partial order
+R. on A. Let A be the set of positive integers and let (x: y) be in R if and
+only if r is a multiple of 3/ (that is, if and only if to is equal to y multiplied
+by a positive integer), ls (AR) 3 poset? Justify your answer. [5 Marks]
+
+continued ::::: Page 5 COMP1021WE01
+
+Question 4
+
+(a)
+
+(b)
+
+How can formulae of first—order logic be constructed from atomic formulae?
+
+[5 Marks]
+
+Let 4': be this formula of first-order logic: VxVy(A(at) A B(amf) => A(y)).
+For each of the following interpretations: express in words the meaning
+of a); state whether 4) it is true or false; and, if it is false, give witnesses
+
+for .r and y,
+
+i. The domain is the natural numbers N. A is the set of even numbers
+and B = {(uﬁv) E N x N : 1/ is a multiple of u}
+
+ii. The domain is the natural numbers N. A is the set of even numbers
+and B _—_ {(u,v) E N X N : u is a multiple of 1)}.
+
+iii, The domain is the natural numbers N, A is the set of odd prime
+numbers and B : {(u,v) E N X N :11 = u + 38}. [10 Marks}
+
+Le: (REES) be a signature, where P and E are unary reiations, R
+is a binary relation and S is a ternary relation, Consider the following
+interpretation Let the domain of discourse be the natural numbers N. Let
+P be the set of prime numbers. Let E be the set of even numbers. Let
+R be the set {(unj) E N x N : u 2 v}. Let S be the set {(uvw) E
+N x N x N : u —‘- v = w} Express each of the following sentences by a
+
+sentence in first-order logic:
+
+i. There is a least natural number.
+ii. There is no largest prime numberi
+
+iii. Every even number is the sum of two prime numbers [10 Marks]
+
+End of Section B continued ::::: Page 6
+
+COM P1021WE01
+
+Section C Discrete Mathematics and Linear Algebra
+
+(Prof. A. Krokhin)
+
+Question 5
+
+(a) A sequence 5 = (0,1,agtag,a4,as) of 5 integers such that O S ch, 5 9 for
+
+71:17,“.5 is chosen at random.
+
+iii.
+
+, Find the probability that some number appears in 3 two times or
+
+more, [3 Marks]
+
+X Find the probability that some number appears in 5 three times or
+
+more, [4 Marks]
+
+What is the probability that some number appears in ,9 three times
+
+or more if we know that (11 = a2 = 0? {5 Marks}
+
+. What is the conditional probability that some number appears in 5
+
+three times or more given that (11 = a2? [7 Marks}
+
+If X is the random variable equai to the sum of ali odd numbers in 8
+(ie, of all CLZ E {1,3,5,7,9}), find the expected vaiue of XV (Hint:
+
+Represent X as a sum of several random variabies.) {6 Marks]
+
+Show your working. You do not need to simplify numerical expressions in
+
+the answers, that is, an answer of the form 1 7
+
+123L456: -
+7392 wouid be fine.
+
+continued ::::: Page 7 COMPlOZlWEOl
+Question 6
+
+(a) Describe the structure of the graph G in the following cases:
+i. G is not connected, but, for any pair of non-neighbours u.v in G, G
+becomes connected after the edge 11.1) is added to G‘ [5 Marks}
+
+ii. The number of connected components in G increases after removing
+
+any edge from G‘ [4 Marks]
+
+iii. After removing any edge from G, one obtains a tree. {5 Marks]
+
+Justify your answers,
+
+(b) Deﬁne the height of a rooted tree. Prove by induction on b. that an m—ary
+
+tree of height h has at most mh leaves. [4 Marks}
+
+(c) Deﬁne the n-cube graph Q". Find the number of edges in Qn‘ Deﬁne
+the diameter of a graph and determine the diameter of Q“. Justify your
+
+answers, [7 Marks]
+
+End of Section C continued ::::: Page 8 COMP1021WE01
+
+Section D Discrete Mathematics and Linear Aigebra
+(Prof. A. Krokhin)
+
+Question 7
+
+(a) Let 0 S a < m be integers. What is a muItiplicative inverse of a number a
+modulo 777.7 State a necessary and sufficient condition for a multiplicative
+inverse to exist Show that a has at most one multiplicative inverse ('1
+modulo m in the range [0,711 — 1’; (Le, such that 0 S a _<_ m —- 1),
+
+[7 Marks]
+
+(b) Find the multiplicative inverse of 11 modulo 15 in the range {0714].
+[5 Marks}
+
+(c) Use the inversion algorithm to ﬁnd the inverse (if it exists) of the matrix
+
+@ LO [0
+U1 1
+«I 03 O Y
+
+[6 Marks}
+
+(d) Explain why the inversion algorithm for matrices always gives the correct
+solution. You may refer to the theorem about invertible matrices in your
+
+expianation. [7 Marks}
+
+continued ::::: Page 9 COMPlOZlWEOl
+Question 8
+
+(3) Define a basis of a vector space. Prove that the vectors U1 -- (9, U, 1)., 712 2
+
+(4, —2)3),v3 = (3,2,—1) form a basis in R3 and ﬁnd the coordinates of
+
+u, = (9,4,2) in this basis, Show your working. [5 Marks]
+(b) Show that if S = {v1,...,72n} is a basis for a vector space V then each
+vector v E V can be expressed as 1; = kw} + kz’Ug —;— . . . + kw.“ (where
+k1 E R for 71 = 17 4 ‘ , ,n) in exactly one way. [7 Marks}
+
+(c) Explain how matrices of size m X n are in one—to—one correspondence with
+linear maps from R” to R”, [5 Marks]
+
+(d) Define eigenvectors and eigenvalues of a square matrix. Find the eigenval—
+
+ues and describe all eigenvectors of the following matrix
+
+_1
+A: ‘2.
+22
+
+[8 Marks}
+
+END OF PAPER :::::  ::::: 

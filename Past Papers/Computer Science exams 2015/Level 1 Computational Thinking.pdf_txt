@@ -1,0 +1,141 @@
+Page 2 COMP1051WE01
+
+Section A Computational Thinking (Dr Stefan Dantchev)
+
+Question 1
+
+(a) Explain Selection~sort ﬁrst in plain Engﬁsh and then in pseudo-code.
+
+[8 Marks]
+
+(b) Describe how your Selection—sort algorithms works on the foliowtng list of
+numbers: 4,5,3}2\5,2‘ [5 Marks]
+
+(c) Describe Binary-search in piain English. [5 Marks]
+
+(d) Describe how Binary-search tries to find 4 in the H31 O,1,3,5,6,8,9,
+[3 Marks]
+
+(e) What are the worst~case running times of Selection—sort and Binary-search,
+respectively if the input ﬁst is of Sength n? Give a brief justification of your
+answers. [4 Marks]
+
+conﬁnued ::::: Page 3 COMP1051WE01
+
+Question 2
+
+(a) Recalt the definition of a regular expression over some atphabet 22:
+
+a any symbol a E Z is a regutar expression;
+
+- Q) and a are special regular expressions; and
+
+o if on and B are regular expressions then so are:
+— (06$)
+— (MB)
+— (06*)-
+
+Explain how a reguiar expression deﬁnes a set of words over 2. [7 Marks]
+
+(b) Give a regutar expression over the alphabet {(1, b} that deﬁnes precisely the
+words that contain at least one a and at teast one b, [4 Marks]
+
+(c) Explain what a ﬁnitevstate machine is and how such a machine accepts or
+rejects‘a word. [9 Marks]
+
+(d) Give a finite-state machine that accepts precisely the words over the alpha-
+bet {a,b} that start and end with an a. [5 Marks]
+
+conﬁnued ::::: Page 4 COMP1051WE01
+
+Question 3
+
+(a) Explain a greedy algorithm for graph colouring in plain English. Does
+your algorithm always find an optimat cotouring) te. one with the minimum
+number of colours? (No detaiied exptanation needed.) [5 Marks]
+
+(b) Describe how your greedy algorithm works on the following graph. [7 Marks]
+
+ 
+
+(0) Sometimes we can decide whether a graph can be coloured with a certain
+number of colours, k say, by transforming the graph into a smaller graph so
+that the original graph can be k-coioured ii, and only if, the transformed graph
+can, We can iteratively do this so that we get a graph so small that we can
+trivially see whether or not it can be kvcotoured. Give an example of such a
+transformation that we might use in this way. Apply your transformation to
+correctly decide whether the graph above can be coloured using 4 colours.
+
+[5 Marks]
+
+(d) What is an independent set in a graph? Find an independent set of size at
+least 6 in the graph above. [4 Marks]
+
+(et What is the running time oi your greedy algorithm in item (a)? [4 Marks]
+
+1 End of Section A continued ::::: Page 5 COMP1D51WE01
+
+Section 8 Computational Thinking (Dr Stefan Dantchev)
+
+Question 4
+
+(a)
+
+(b)
+
+Explain what a decision problem is. What does it mean to solve a decision
+probiem? [4 Marks]
+
+Expiain what a search problem is. What is meant by a solution of a search
+probiem? [6 Marks]
+
+Expiain how there is aiways a decision problem that corresponds to a search
+problem. Give an example of a search probiem whose respective decision
+probiem is triviaiv [4 Marks]
+
+Explain what an optimisation problem is. [5 Marks]
+
+Abstract a computational problem out of the reai~worid probiem beiow,
+
+A cinema has a number of films for the day. Each fiim is no longer than
+two hours, so the manager decides to divide the evening into twovhour slots.
+There are enough screens, so that ali fiims could be shown in paraiiei, which
+would be ideal for the manager as he wants to go home early. However,
+each viewer has purchased tickets for a number of films that they want to
+see. With the knowledge of the tickets, purchased by every viewer, how
+can the manager schedule the screenings so that every film is screened just
+once, every viewer can see all the tiims that they have tickets for, and the
+cinema closes as early as possible. [6 Marks]
+
+continued ::::: Page 6 COMP1051WE01
+
+Question 5
+
+(a) What are the basic generai principies behind measuring the time taken by
+some algorithm, expressed using pseudo~code, on some particuiar input?
+[5 Marks]
+
+(b) Reset! the definition oi big-O notation:
+
+For two functions f,g : N ‘—> N, we write f : O(g) if there exists some n0 6 N
+and some positive rational k E Q such that f(n) g kg(n) whenever n 2 no.
+
+in the context of comparing running times of two aigorithms, explain what
+the functions f and g are and what the constants k and no are used tort
+[5 Marks]
+
+(0) We are given five different algorithms with quite precise running times, esti—
+mated as toliows
+
+®(n),®(iog2n),®(i.i”)t®(n2),®(n 10g”),
+respectively Order these algorithms by their efficiency, [5 Marks}
+
+(d) Explain what the complexity classes P and NP are, and how they are related.
+What is an NP—complete probiem? is it likely that such a problem is in P and
+why? [6 Marks]
+
+(e) Give examples of three graph probiems, one in P, another NP-compiete,
+and a third one which is uniikeiy to be either in P or to be NP-complete.
+[3 Marks]
+
+END OF PAPER ::::: 
